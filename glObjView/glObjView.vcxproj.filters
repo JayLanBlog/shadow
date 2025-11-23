@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sd">
+      <UniqueIdentifier>{a2673e2c-d06b-4568-a3e4-62ab096ec2d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="LICENSE.zlib.txt" />
+    <Text Include="LICENSE.jpeg.txt" />
+    <Text Include="LICENSE.png.txt" />
+    <Text Include="LICENSE.tiff.txt" />
+    <Text Include="LICENSE.webp.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\demoscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\i_displayobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendercontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sd\p_fbo.h">
+      <Filter>Source Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sd\shader_src.h">
+      <Filter>Source Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sd\p_render.h">
+      <Filter>Source Files\sd</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\demoscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendercontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sd\p_render.cpp">
+      <Filter>Source Files\sd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\sprite.vert" />
+    <None Include="shaders\sprite.frag" />
+    <None Include="shaders\shadowgen.geom" />
+    <None Include="shaders\shadowgen.frag" />
+    <None Include="freeglut.dll" />
+    <None Include="glew32.dll" />
+    <None Include="libjpeg-9.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="libtiff-5.dll" />
+    <None Include="libwebp-4.dll" />
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="shaders\shadowcombine.frag" />
+    <None Include="shaders\texturedquad.vert" />
+    <None Include="shaders\finalblend.frag" />
+    <None Include="shaders\lightgen.frag" />
+    <None Include="shaders\lightgen.vert" />
+    <None Include="zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\nm_cone64x64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\color_cone64x64.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\cracked_c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\cracked_n.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\stone_color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\stone_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\mtl_o_c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\mtl_o_n.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\mtl_o_n_e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
